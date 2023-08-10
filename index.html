@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>
+            My calculator
+        </title>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8";
+    </head>
+    <body>
+        <div class="mahesh">
+            <div class="dinesh">
+              <form>
+                <div class="nasar">
+                <input type="text" name="nasar">
+                </div>
+                <div>
+                <input type="button" value="AC" onclick=" nasar.value ='' " class="yaswanth">
+                <input type="button" value="DE" onclick=" nasar.value =nasar.value.toString().slice(0,-1)" class="yaswanth" >
+                <input type="button" value="." onclick=" nasar.value +='.' " class="yaswanth">
+                <input type="button" value="/" onclick=" nasar.value +='/' " class="yaswanth">
+                </div>
+                <div>
+                    <input type="button" value="7" onclick=" nasar.value +='7' ">
+                    <input type="button" value="8" onclick=" nasar.value +='8'">
+                    <input type="button" value="9" onclick=" nasar.value +='9'">
+                    <input type="button" value="*" onclick=" nasar.value +='*'" class="yaswanth">
+                    </div>
+                    <div>
+                    <input type="button" value="4" onclick=" nasar.value +='4' ">
+                        <input type="button" value="5" onclick=" nasar.value +='5' ">
+                        <input type="button" value="6" onclick=" nasar.value +='6' ">
+                        <input type="button" value="-" onclick=" nasar.value +='-' " class="yaswanth">
+                        </div>
+                        <div>
+                            <input type="button" value="1" onclick=" nasar.value +='1' ">
+                            <input type="button" value="2" onclick=" nasar.value +='2' ">
+                            <input type="button" value="3" onclick=" nasar.value +='3' ">
+                            <input type="button" value="+" onclick=" nasar.value +='+' " class="yaswanth">
+                        </div>
+                        <div>
+                            <input type="button" value="00" onclick="nasar.value +='00' ">
+                            <input type="button" value="0" onclick="nasar.value +='0' ">
+                            <input type="button" value="=" onclick="nasar.value=eval(nasar.value)" class="equal">
+                            </div>
+              </form>
+            </div>
+        </div>
+    </body>
+</html>
